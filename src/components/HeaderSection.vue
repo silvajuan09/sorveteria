@@ -5,6 +5,7 @@
             <ul>
                 <li><router-link to ='/sabores'>Sabores</router-link></li>
                 <li><router-link to="/contato">Contato</router-link></li>
+                <li><router-link to="/noticias">Notícias</router-link></li>
             </ul>
         </nav>
     </header>
