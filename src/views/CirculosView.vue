@@ -19,29 +19,29 @@
         venha se refrescar com a gente!
       </p>
     </div>
-    <router-link to="/sabores">Conheça nossos sabores!</router-link>
-    <button  @click="Circulo">Clique para surpresa!</button>
+    <router-link to="/sabores">Conheça nossos sabores!</router-link> <br> <br>
+    <button  @click="Circulo">Clique para gerar!</button>
     <div id='circulo'></div>
 </template>
 
 <script setup>
-    const cores = ["black", "gray", "blue", "purple", "yellow", "red", "pink"];
+    const cores = ["black", "gray", "blue", "purple", "yellow", "red", "pink", "rgb(193, 255, 249)"];
 
     function Circulo(){
-        const indice = Math.floor(Math.random() * cores.length);
-        const cor = cores[indice];
+      const indice = Math.floor(Math.random() * cores.length);
+      const cor = cores[indice];
         
-        document.getElementById('circulo').innerHTML +=
-            `
-            <div style="
-                width:100px;
-                heigth: 100px;
-                border-radius: 50%;
-                background-color: ${cor};
-                display: inline-block;
-                margin: 10px">
-            </div>
-            `;
+      document.getElementById('circulo').innerHTML +=
+          `
+          <div style="
+              width:100px;
+              height: 100px;
+              border-radius: 50%;
+              background-color: ${cor};
+              display: inline-block;
+              margin: 10px">
+          </div>
+          `;
     }
 
 </script>

@@ -62,3 +62,9 @@ li{
 footer{
     margin: 5rem;
 }
+button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border-color: black;
+}
