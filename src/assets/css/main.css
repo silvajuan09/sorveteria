@@ -45,9 +45,10 @@ section ul{
     justify-content: center;
 }
 section li{
-    margin: 2rem;
+    margin: 0.7rem 2rem;
     padding: 2rem;
-    border: 1px black solid;
+    border: 1px white solid;
+    background-color: white;
     border-radius: 1.3rem;
 }
 nav ul{
@@ -56,7 +57,7 @@ nav ul{
     padding-right: 2rem;
 }
 li{
-    list-style-type: none;
+    list-style-type: none
 }
 footer{
     margin: 5rem;
